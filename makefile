@@ -24,7 +24,7 @@ basepath = github.com/anz-bank/sysltemplate
 
 TMP = .tmp# Cache the server lib directory in tmp
 SERVERLIB = /var/tmp
-TRANSLOCATION = .tmp/server-lib/codegen/transforms
+TRANSLOCATION = github.com/anz-bank/sysl-go/codegen/transforms
 TRANSFORMS= svc_error_types.sysl svc_handler.sysl svc_interface.sysl svc_router.sysl svc_types.sysl
 DOWNSTREAMTRANSFORMS = svc_client.sysl svc_error_types.sysl svc_types.sysl
 GRAMMAR=$(wildcard .tmp/server-lib/codegen/grammars/go.gen.g)
